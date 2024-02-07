@@ -78,9 +78,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developing highly scalable production ready models for various deep learning and statistical use cases",
+        "⚡ Experience of working with NLP and Machine Learning projects",
+        "⚡ Designing and implementing recommender systems for personalized content recommendations",
       ],
       softwareSkills: [
         {
@@ -126,9 +126,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Django",
+        "⚡ Building responsive website front end using React",
+        "⚡ Creating application backend in Node & Express ",
+        "⚡ Designing and managing databases using MongoDB for efficient data storage",
       ],
       softwareSkills: [
         {
@@ -161,10 +161,10 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
-            color: "#339933",
+            color: "#000000",
           },
         },
         {
@@ -178,33 +178,33 @@ const skills = {
     },
     {
       title: "Mobile Application Development",
-      fileName: "CloudInfraImg",
+      fileName: "MobileDevImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Proficient in developing cross-platform mobile applications using React Native",
+        "⚡ Experience with state management using Redux or Context API for efficient data flow",
+        "⚡ Integration of native modules and third-party libraries to enhance app functionality",
+        "⚡ Familiarity with optimizing app performance and ensuring smooth user experiences on both iOS and Android platforms"
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
             color: "#4285F4",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
           style: {
-            color: "#FF9900",
+            color: "#3178C6",
           },
         },
         {
-          skillName: "Snowflake",
-          fontAwesomeClassname: "simple-icons:snowflake",
+          skillName: "React-Native",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#326CE5",
+            color: "#61DAFB",
           },
         },
       ],
@@ -243,9 +243,9 @@ const degrees = {
       alt_name: "GVPCE",
       duration: "2020 - present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ I have studied basic software engineering subjects like DSA, DBMS, OS, CN etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I was also part of Honors course where I learnt about Natural Language Processing and ReactJs.",
       ],
       website_link: "http://gvpce.ac.in",
     },
@@ -314,27 +314,11 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Internship, Hackathon and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with evolving startups as Front-End App Developer and Website Developer. I also participated in exciting hackathons and solved interesting problems. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
-    /*{
-      title: "Work",
-      experiences: [
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
-      ],
-    },*/
     {
       title: "Internships",
       experiences: [
@@ -343,11 +327,38 @@ const experience = {
           company: "GAMAYAS",
           company_url: "https://gamayas.com/",
           logo_path: "gamayas_png.png",
-          duration: "June 2023 - present",
+          duration: "June 2023 - November 2023",
           location: "Hyderabad, India",
           description:
-            "Developing a new mobile application for medical background and integrated differend machine learning models with the application.",
+            "worked in Front-End App Development for MissSwag, A gynecological app providing medical assistance to women built using React Native, Flask and postgresql!",
           color: "#000000",
+        },
+      ],
+    },
+    {
+      title: "Hackathons",
+      experiences: [
+        {
+          title: "SIH-2022 Grand Finalist",
+          company: "Smart India Hackathon",
+          company_url: "https://www.aicte-india.org/Initiatives/smart-india-hackathon",
+          logo_path: "sih_logo.png",
+          duration: "June 2022",
+          location: "Namakkal, Tamil Nadu",
+          description:
+            "Smart India Hackathon is one of the largest hackathons in the world conducted by central government of India.It is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.",
+          color: "#D83B01",
+        },
+        {
+          title: "Team Lead",
+          company: "Rajasthan IT Day Hackathon",
+          company_url: "https://raj-it-hackathon.pwskills.com/",
+          logo_path: "rajasthan_it_day_logo.png",
+          duration: "March 2023",
+          location: "Jaipur, Rajasthan",
+          description:
+            "Rajasthan It Day Hackathon is a 36-hour non-stop coding marathon aimed at finding effective solutions to promote and improve the state’s IT and e-governance initiatives. We Developed a solution to solve Rajasthan's massive unemployment problem.",
+          color: "#D83B01",
         },
       ],
     },
@@ -357,7 +368,7 @@ const experience = {
         {
           title: "NSS Volunteer",
           company: "National Service Scheme",
-          company_url: "https://www.microsoft.com/",
+          company_url: "https://www.facebook.com/nssgvp/",
           logo_path: "nss_logo.png",
           duration: "February 2022 - Present",
           location: "Visakhapatnam, Andhra Pradesh",
@@ -374,7 +385,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects, Web Applications and Mobile Applications.",
   avatar_image_path: "projects_image.svg",
 };
 
