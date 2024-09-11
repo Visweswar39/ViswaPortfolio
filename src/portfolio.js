@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "viswa Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://visweswar39.github.io/ViswaPortfolio",
   },
 };
 
@@ -48,7 +48,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/yaramanedi-visweswara-rao-817018205",
+    link: "https://www.linkedin.com/in/visweswar39/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -60,7 +60,7 @@ const socialMediaLinks = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/Visweswar39",
+    link: "https://twitter.com/viswa_23",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
@@ -221,7 +221,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/yaramanediviswes/",
+      profileLink: "https://leetcode.com/u/visweswar39/",
     },
     {
       siteName: "Kaggle",
@@ -241,7 +241,7 @@ const degrees = {
       subtitle: "B.Tech.(hons) in Information Technology",
       logo_path: "gvpce.png",
       alt_name: "GVPCE",
-      duration: "2020 - present",
+      duration: "2020 - 2024",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DSA, DBMS, OS, CN etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
@@ -427,7 +427,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Gvp College of Engineering, Kommadi, Madhurawada, Visakhapatnam, Andhra Pradesh - 385520",
+      "Seethanagaram, parvatipuram manyam(district), Andhra Pradesh, India",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/AXMSXcdQXwV1gXMq5",
   },
