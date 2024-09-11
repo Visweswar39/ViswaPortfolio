@@ -323,7 +323,18 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
+          title: " Full Stack Web development Intern",
+          company: "Edgroom",
+          company_url: "https://edgroom.com/",
+          logo_path: "edgroom_logo.jpeg",
+          duration: "May 2024 - Present",
+          location: "Bengaluru, India",
+          description:
+            "Worked as Full Stack Web development intern in Edgroom, An EdTech Platform for personalized career guidance and college guidance, built using NextJs!",
+          color: "#000000",
+        },
+        {
+          title: "Frontend App Development Intern",
           company: "GAMAYAS",
           company_url: "https://gamayas.com/",
           logo_path: "gamayas_png.png",
@@ -338,6 +349,17 @@ const experience = {
     {
       title: "Hackathons",
       experiences: [
+        {
+          title: "Winner",
+          company: "GradRight",
+          company_url: "https://antidote-bm.gradright.com/",
+          logo_path: "codeclash_logo.png",
+          duration: "September 2024",
+          location: "Remote",
+          description:
+            "Code Clash is a mini-hackathon where participants design innovative solutions to showcase their skills and problem-solving abilities for a chance to fast-track their path to a Master's program in the USA. I emerged victorious in this competition, securing my place among the top talent.",
+          color: "#D83B01",
+        },
         {
           title: "SIH-2022 Grand Finalist",
           company: "Smart India Hackathon",
